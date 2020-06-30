@@ -176,7 +176,7 @@ OrbitZoomCamera<T> {
 
     /// Orbit the camera using the given horizontal and vertical params,
     /// or zoom or pan if the appropriate modifier keys are pressed
-    fn control_camera(&mut self, dx: T, dy: T) {
+    pub fn control_camera(&mut self, dx: T, dy: T) {
 
         let _1 = T::one();
         let _0 = T::zero();
