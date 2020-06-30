@@ -143,7 +143,7 @@ pub struct OrbitZoomCamera<T=f32> {
     pub settings: OrbitZoomCameraSettings<T>,
 
     /// Current keys that are pressed
-    keys: Keys,
+    pub keys: Keys,
 }
 
 

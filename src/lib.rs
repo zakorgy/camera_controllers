@@ -1,5 +1,4 @@
 #![crate_name = "camera_controllers"]
-#![deny(missing_docs)]
 
 //! A library for 3D camera control
 
@@ -24,6 +23,7 @@ pub use first_person::{
 pub use orbit_zoom_camera::{
     OrbitZoomCamera,
     OrbitZoomCameraSettings,
+    Keys,
 };
 
 mod first_person;
